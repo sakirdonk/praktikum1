@@ -40,13 +40,4 @@
         echo $mhss["nama"].'<br><br>'; //Tidak pakai [0] karena looping
     }
     
-    <?php foreach ($mahasiswas as $mhss); ?>
-    <tr>
-        <td><?= $mhss["id"]?></td>
-        <td><?= $mhss["nama"]?></td>
-        <td><?= $mhss["nim"]?></td>
-        <td><?= $mhss["uts"]?></td>
-        <td><?= $mhss[""]?></td>
-    </tr>
-    <?php endforeach; ?>
 ?>
